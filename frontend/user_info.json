@@ -1,0 +1,53 @@
+[
+    {
+        "username": "StarryKnight",
+        "email": "starry.knight@example.com",
+        "password": "Gr8T3xT2025!"
+    },
+    {
+        "username": "CryptoWhiz",
+        "email": "cryptowhiz42@example.com",
+        "password": "Bl0ckC#@in88"
+    },
+    {
+        "username": "PixelPanda",
+        "email": "pixel.panda99@example.com",
+        "password": "P@ndaL0ve#123"
+    },
+    {
+        "username": "GalacticRider",
+        "email": "galactic.rider@example.com",
+        "password": "M!lkyWay22"
+    },
+    {
+        "username": "CodeWanderer",
+        "email": "code.wanderer@example.com",
+        "password": "P@ssW0rd789!"
+    },
+    {
+        "username": "QuantumSpark",
+        "email": "quantum.spark76@example.com",
+        "password": "Sp@rky#2025"
+    },
+    {
+        "username": "NeoVoyager",
+        "email": "neo.voyager2025@example.com",
+        "password": "V0yage!nTime"
+    },
+    {
+        "username": "OceanTrekker",
+        "email": "ocean.trekker@example.com",
+        "password": "D3epBlu3Sea"
+    },
+    {
+        "username": "LunarEclipse",
+        "email": "lunar.eclipse@example.com",
+        "password": "EclipseM00n#"
+    },
+    {
+        "username": "SolarHawk",
+        "email": "solar.hawk@example.com",
+        "password": "S0larH@wk2025"
+    }
+
+]

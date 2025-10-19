@@ -1,0 +1,164 @@
+body {
+  font-family: "Sour Gummy", sans-serif !important;
+  background-color: #e43a57;
+}
+
+body.light-theme {
+  background-color: white;
+  color: #e43a57;
+}
+
+body.green-theme {
+  background-color: #277e62;
+  color: #e0e0e0;
+}
+
+body.yellow-theme {
+  background-color: #fbf3c5;
+  color: black;
+}
+
+body.light-theme #customizable {
+  background-color: white;
+  color: #e43a57;
+}
+
+body.green-theme #customizable {
+  background-color: #277e62 !important;
+  color: #e0e0e0;
+}
+
+body.yellow-theme #customizable {
+  background-color: #fbf3c5;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+
+.log1 {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  margin-right: 0px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.theme-selector {
+  margin-right: 1vw;
+  width: 5vw;
+  height: 3vw;
+  border-radius: 15px;
+  border: 4px solid #e43a57;
+}
+
+.home, .login, .register {
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  border-radius: 40px;
+  background-color: white;
+  color: #e43a57;
+}
+
+.home:hover, .login:hover, .register:hover {
+  background-color: #e43a57;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.head-btns {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.header-class {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #e43a57;
+  height: 100px;
+  margin-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.dropdown-menu {
+  background-color: #e43a57 !important;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .menu {
+    display: flex;
+    margin-right: 2%;
+  }
+  .head-btns {
+    display: none;
+  }
+  .theme-selector {
+    margin-right: 1vw;
+    width: 7vw;
+    height: 4vw;
+    border-radius: 10px;
+    border: 3px solid #e43a57;
+  }
+}
+.high-head-button {
+  background-color: blue !important;
+  color: white !important;
+  border: 2px black solid !important;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    display: flex;
+    margin-right: 2%;
+  }
+  .head-btns {
+    display: none;
+  }
+  .theme-selector {
+    margin-right: 1vw;
+    width: 9vw;
+    height: 5vw;
+    border-radius: 10px;
+    border: 3px solid #e43a57;
+  }
+}
+.footer-class {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-footer {
+  margin-top: 5%;
+}
+
+.footer-img-candy {
+  width: 6vw;
+  height: auto;
+}
+
+#welcome-Logged-user {
+  display: none;
+  font-weight: bolder;
+  font-size: larger;
+}/*# sourceMappingURL=glob.css.map */

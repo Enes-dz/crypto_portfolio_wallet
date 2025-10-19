@@ -1,0 +1,59 @@
+$primary-color: #e43a57;
+$sec-color: white;
+
+.user-must-be-logged{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    height: 15vw;
+    width: 25vw;
+    background-color: $primary-color;
+    border-radius: 40px;
+    border: black solid 4px;
+}
+.wallets-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-must-be-logged-h{
+    margin-top: 5%;
+    color: $sec-color;
+    text-align: center;
+}
+.user-must-be-logged-p{
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+}
+
+@media(max-width: 1024px){
+    .user-must-be-logged-h{
+        padding: 3%;
+        font-size: small;
+    }
+    .user-must-be-logged-p{
+        padding: 3%;
+        font-size: small;
+    }
+    .user-must-be-logged{
+        height: 23vw;
+        width: 30vw;
+    }
+}
+
+@media(max-width: 768px){
+    .user-must-be-logged{
+        height: 30vw;
+        width: 40vw;
+    }
+}
+
+@media(max-width:430px){
+    .user-must-be-logged{
+        height: 50vw;
+        width: 70vw;
+    }
+}
