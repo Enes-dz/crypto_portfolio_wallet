@@ -1,0 +1,44 @@
+1. AuthService
+- register: good
+- login: good
+
+2. WalletService
+- createWallet: good
+- delete_wallet: good
+
+3. AdminService
+- update_user_role: good
+- update_user_password: good
+- insert_new_crypto: good
+- insert_new_chain: good
+- update_user_balance: good
+
+4. ChainsService
+- get_chain_by_symbol: good
+- get_all_chains: good
+
+5. CryptoService
+- get_crypto_by_symbol: good
+- get_all_cryptos: good
+- delete_crypto_by_id: good
+
+6. CryptoChainsService
+- get_chains_for_crypto_symbol: good
+
+7. UserBalancesService
+- get_user_balances: good
+- dummy_add_balance: good
+
+8. UserWalletsService
+-delete_user_wallet_by_id: good
+
+9. UsersService 
+-changePassword: good
+-changeUsername: good
+-delete_user: good
+
+
+Questions: 
+1. Multiple imports for Services?
+2. Dummy creation
+3. Number of services?

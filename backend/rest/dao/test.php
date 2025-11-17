@@ -18,6 +18,7 @@ $crypto_chain_wallets_dao = new CryptoChainWalletsDao();
 $crypto_chains_dao = new CryptoChainsDao();
 $user_wallets_dao = new UserWalletsDao();
 
-$username = $users_dao->get_user_by_username('test_username');
-echo "User fetched by username:\n";
-print_r($username);
+
+
+
+$wallets_dao->delete_wallet_by_id(1);
